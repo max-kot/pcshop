@@ -1,6 +1,6 @@
 @import url('../css/modules/_var.css');
 @import url('../css/modules/_fonts.css');
-@import url('../css/modules/_base.css');
+@import url('../css/modules/base.css');
 
 /*---Sections---*/
 @import url('../css/modules/_header.css');
