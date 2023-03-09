@@ -30,6 +30,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	overflow: hidden;
 }
 
 .main{
@@ -40,6 +41,11 @@ body {
 	max-width: calc(var(--container-width) + (var(--container-paddings) * 2));
 	padding: 0 var(--container-paddings);
 	margin: 0 auto;
+}
+
+.container--short {
+	--container-width: 1020px;
+	/*max-width: calc(1020px + (var(--container-paddings) * 2));*/
 }
 
 .btn {
@@ -58,6 +64,31 @@ body {
 .btn:hover{
 	background: transparent;
 	border-color: var(--accent-color);
+	color: var(--accent-color);
+}
+
+.btn--stroke{
+	background: transparent;
+	border-color: var(--accent-color);
+	color: var(--accent-color);
+}
+
+.btn--stroke:hover{
+	background: var(--accent-color);
+	color: var(--btn-color);
+}
+
+.title-section{
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: var(--title-color);
+}
+
+.accent-text {
 	color: var(--accent-color);
 }
 
